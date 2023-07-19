@@ -10,6 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Dispatcher</module>
+        <module>Common-RabbitMQ</module>
+        <module>Common-RabbitMQ</module>
+        <module>Common-RabbitMQ</module>
+        <module>Common-RabbitMQ</module>
+        <module>Common-RabbitMQ</module>
+        <module>Common-RabbitMQ</module>
     </modules>
 
     <properties>
