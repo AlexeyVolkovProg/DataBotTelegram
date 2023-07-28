@@ -16,6 +16,7 @@
         <module>Common-RabbitMQ</module>
         <module>Common-RabbitMQ</module>
         <module>Common-RabbitMQ</module>
+        <module>Node</module>
     </modules>
 
     <properties>
@@ -46,7 +47,6 @@
             <version>1.18.24</version>
             <scope>provided</scope>
         </dependency>
-
 
 
 

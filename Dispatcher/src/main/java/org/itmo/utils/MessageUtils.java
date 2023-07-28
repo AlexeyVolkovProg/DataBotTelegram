@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.itmo.utils;
 
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;

@@ -1,4 +1,4 @@
-package org.example.controller;
+package org.itmo.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Value;

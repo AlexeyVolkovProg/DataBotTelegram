@@ -1,7 +1,7 @@
-package org.example.services.impl;
+package org.itmo.services.impl;
 
 import lombok.extern.log4j.Log4j;
-import org.example.services.UpdateProducer;
+import org.itmo.services.UpdateProducer;
 import org.jvnet.hk2.annotations.Service;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.stereotype.Component;

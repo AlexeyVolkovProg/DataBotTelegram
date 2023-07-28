@@ -1,8 +1,8 @@
-package org.example.controller;
+package org.itmo.controller;
 
 import lombok.extern.log4j.Log4j;
-import org.example.services.UpdateProducer;
-import org.example.utils.MessageUtils;
+import org.itmo.services.UpdateProducer;
+import org.itmo.utils.MessageUtils;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
@@ -117,7 +117,7 @@ public class UpdateController {
     }
 
 
-    private void setView(SendMessage sendMessage) {
+    public void setView(SendMessage sendMessage) {
         telegramBot.sendAnswerMessage(sendMessage);
     }
 
