@@ -17,6 +17,7 @@
         <module>Common-RabbitMQ</module>
         <module>Common-RabbitMQ</module>
         <module>Node</module>
+        <module>Common-JPA</module>
     </modules>
 
     <properties>

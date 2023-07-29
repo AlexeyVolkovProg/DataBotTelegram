@@ -9,14 +9,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Dispatcher" />
+        <module name="Common-JPA" />
         <module name="Common-RabbitMQ" />
+        <module name="Dispatcher" />
         <module name="Node" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Common-JPA" options="-parameters" />
       <module name="Common-RabbitMQ" options="-parameters" />
       <module name="Dispatcher" options="-parameters" />
       <module name="Node" options="-parameters" />
